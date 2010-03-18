@@ -5,10 +5,7 @@ license-file:    LICENSE
 author:          dan corson <danl@alum.mit.edu>
 synopsis:        <syn>
 build-type:      Simple
-build-depends:   base, haskell98
-
-exposed-modules: Data.rrweb
-hs-source-dirs:  src
+build-depends:   base, happstack-server, haskell98
 
 executable:      rrweb
 main-is:         Main.hs
